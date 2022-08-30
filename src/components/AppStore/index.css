@@ -1,0 +1,81 @@
+/* Write your CSS here */
+
+.app-store-container {
+  margin: auto;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 56px;
+  color: #3e4c59;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}
+
+.total-search-tab-container {
+  border: 1px solid #1e293b;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.search-image {
+  width: 25px;
+}
+.just-search-bar {
+  width: 85%;
+  background-color: transparent;
+  margin-right: 10px;
+  border: none;
+  height: 100%;
+  font-size: 18px;
+}
+.tabs-container {
+  max-width: 300px;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .tabs-container {
+    max-width: 455px;
+  }
+}
+
+.app-list-container {
+  padding: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 50px;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 992px) {
+  .project-list-container {
+    margin-bottom: 150px;
+  }
+}
